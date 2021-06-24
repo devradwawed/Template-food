@@ -1,4 +1,5 @@
 # Template-food
+## [Demo](https://boubkhaled.github.io/Template-food/)
 
 ## Init npm project
 ```bash
@@ -26,5 +27,10 @@ git add -A
 git commit -m 'deploy'
 
 git remote add origin https://github.com/<GITHUB-USERNAME>/Template-food.git
-git push -f origin master
+git push -f origin main:gh-pages
+```
+
+## Set Github pages
+```
+https://github.com/<GITHUB-USERNAME>/Template-food/settings/pages
 ```
